@@ -33,9 +33,9 @@ sudo cp mac-chime.service /etc/systemd/user/mac-chime.service
 然后执行：
 
 ```
-sudo systemctl --global enable mac-chime-resume.service
+sudo systemctl --global enable mac-chime.service
 ```
-（和/或 ```sudo systemctl --global enable mac-chime.service```）
+（和/或 ```sudo systemctl --global enable mac-chime-resume.service```）
 
 ---
 
