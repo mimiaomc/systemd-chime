@@ -1,8 +1,8 @@
 # systemd-mac-chime
-Plays the classic Mac Chime boot sound on linux starting up and resume.
+Plays the classic Mac Chime/Windows boot sound on linux starting up and resume.
 
 # 简体中文
-一个可以让你电脑像 Mac 一样发出启动声音的服务
+一个可以让你电脑像 Mac/Windows 一样发出启动声音的服务
 
 ## 使用方法
 
