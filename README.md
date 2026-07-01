@@ -1,4 +1,4 @@
-# systemd-mac-chime
+# systemd-chime
 Plays the classic Mac Chime/Windows boot sound on linux starting up and resume.
 
 # 简体中文
@@ -8,8 +8,8 @@ Plays the classic Mac Chime/Windows boot sound on linux starting up and resume.
 
 文件说明
 
-- ```mac-chime.service``` 为启动时发声服务
-- ```mac-chime-resume.service``` 为唤醒时发声服务
+- ```chime.service``` 为启动时发声服务
+- ```chime-resume.service``` 为唤醒时发声服务
 - ```mac_chime.wav``` 为 Mac 唤醒声音（来自[维基百科](https://en.wikipedia.org/wiki/File:MacStartupChime.ogg)，转换成了 wav 文件）
 
 请按照自身需求（例如想让电脑启动时或者唤醒时发声）选择文件
@@ -22,9 +22,9 @@ Plays the classic Mac Chime/Windows boot sound on linux starting up and resume.
 
 示例命令：
 ```
-sudo cp mac-chime.service /etc/systemd/user/mac-chime.service
+sudo cp chime.service /etc/systemd/user/chime.service
 ```
-（和/或 ```sudo cp mac-chime-resume.service /etc/systemd/user/mac-chime-resume.service```）
+（和/或 ```sudo cp chime-resume.service /etc/systemd/user/chime-resume.service```）
 
 用来添加服务
 
@@ -33,9 +33,9 @@ sudo cp mac-chime.service /etc/systemd/user/mac-chime.service
 然后执行：
 
 ```
-sudo systemctl --global enable mac-chime.service
+sudo systemctl --global enable chime.service
 ```
-（和/或 ```sudo systemctl --global enable mac-chime-resume.service```）
+（和/或 ```sudo systemctl --global enable chime-resume.service```）
 
 ---
 
